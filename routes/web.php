@@ -17,6 +17,12 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('bitacora', function () {
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+Route::get('/bitacora', function () {
     return view('bitacora');
-});
+})->middleware(['auth'])->name('bitacora');
+
+require __DIR__ . '/auth.php';

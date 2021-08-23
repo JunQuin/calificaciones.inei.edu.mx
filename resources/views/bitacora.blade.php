@@ -9,10 +9,26 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style>
+        td.verticalText {
+            text-decoration: none;
+            writing-mode: vertical-lr;
+            transform: rotate(180deg);
+        }
+
+        td.verticalText a {
+            font-size: 10pt;
+        }
+
+    </style>
+    <style>
         .Rent {
             width: 15px;
             height: 25px;
             border: 0;
+            margin: 0;
+            padding: 0;
+            font-size: 10pt;
+            text-align: center;
             /*width: 80%;*/
         }
     </style>
@@ -2271,11 +2287,10 @@
         }
     </style>
 </head>
-
 <body class="bg-color">
 <div class="container">
     <p class="h2 text-light mt-2 mb-2">
-        Bitacora de clases.
+        Bit&aacute;cora de clases
     </p>
     <table id="sheet0" class="sheet0 gridlines">
         <col class="col0">
@@ -2332,7 +2347,7 @@
                     style="font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt"><br/>
 MES: </span><span style="font-weight:bold; text-decoration:underline; color:#000000; font-family:'Calibri'; font-size:11pt">ENERO</span>
             </td>
-            <td class="column25 style59 s style61" rowspan="3">Asit.</td>
+            <td class="column25 style59 s style61 verticalText" rowspan="3">Asit.</td>
             <td class="column26 style26 s style28" colspan="2">Inasistencia</td>
             <td class="column28 style41 s style43" rowspan="3">No.</td>
             <td class="column29 style26 s style28" colspan="14">INDICADOR DE EVALUACIÓN ( APRENDIZAJES ESPERADOS)</td>
@@ -2340,153 +2355,153 @@ MES: </span><span style="font-weight:bold; text-decoration:underline; color:#000
         <tr class="row1">
             <td class="column26 style39 s style40" rowspan="2">#</td>
             <td class="column27 style39 s style40" rowspan="2">%</td>
-            <td class="column29 style31 null style32" rowspan="2"></td>
-            <td class="column30 style29 null style30" rowspan="2"></td>
-            <td class="column31 style29 null style30" rowspan="2"></td>
-            <td class="column32 style29 null style30" rowspan="2"></td>
-            <td class="column33 style29 null style30" rowspan="2"></td>
-            <td class="column34 style29 null style30" rowspan="2"></td>
-            <td class="column35 style29 null style30" rowspan="2"></td>
-            <td class="column36 style29 null style30" rowspan="2"></td>
-            <td class="column37 style29 null style30" rowspan="2"></td>
-            <td class="column38 style29 null style30" rowspan="2"></td>
-            <td class="column39 style33 null style34" rowspan="2"></td>
-            <td class="column40 style35 s style36" rowspan="2">PROM</td>
+            <td class="column29 style31 null style30 verticalText" rowspan="2"><a class="">Part.</a></td>
+            <td class="column30 style29 null style30 verticalText" rowspan="2"><a class="">Punt.</a></td>
+            <td class="column31 style29 null style30 verticalText" rowspan="2"><a class="">Limp.</a></td>
+            <td class="column32 style29 null style30 verticalText" rowspan="2"><a class="">Tareas</a></td>
+            <td class="column33 style29 null style30 verticalText" rowspan="2"><a class="">Parcial</a></td>
+            <td class="column34 style29 null style30 verticalText" rowspan="2"><a class="">Evidencias</a></td>
+            <td class="column35 style29 null style30" rowspan="2"><input type="text" class="Rent" Value=""></td>
+            <td class="column36 style29 null style30" rowspan="2"><input type="text" class="Rent" Value=""></td>
+            <td class="column37 style29 null style30" rowspan="2"><input type="text" class="Rent" Value=""></td>
+            <td class="column38 style29 null style30" rowspan="2"><input type="text" class="Rent" Value=""></td>
+            <td class="column39 style33 null style30" rowspan="2"><input type="text" class="Rent" Value=""></td>
+            <td class="column40 style35 s style36 verticalText" rowspan="2">PROM</td>
             <td class="column41 style37 s style38" colspan="2">Parcial</td>
         </tr>
         <tr class="row2">
             <td class="column1 style46 s style46" colspan="3">NOMBRE DEL ALUMNO</td>
             <td class="column41 style16 s">Exam</td>
-            <td class="column42 style19 s">Cal. F</td>
+            <td class="column42 style19" style="margin:3px">Cal. F</td>
         </tr>
         <tr class="row3">
             <td class="column0 style25 n">1</td>
-            <td class="column1 style53 s style55" colspan="3">Javier Villa Quintero</td>
+            <td class="column1 style53 s style55" colspan="3">Miguel Camacho Hernandez</td>
             <td class="column4 style25 n">1</td>
-            <td class="column5 style10 null">o</td>
-            <td class="column6 style17 null">x</td>
-            <td class="column7 style17 null">o</td>
-            <td class="column8 style17 null">o</td>
-            <td class="column9 style17 null">o</td>
-            <td class="column10 style17 null">o</td>
-            <td class="column11 style17 null"></td>
-            <td class="column12 style17 null"></td>
-            <td class="column13 style17 null"></td>
-            <td class="column14 style17 null"></td>
-            <td class="column15 style17 null"></td>
-            <td class="column16 style17 null"></td>
-            <td class="column17 style17 null"></td>
-            <td class="column18 style17 null"></td>
-            <td class="column19 style17 null"></td>
-            <td class="column20 style17 null"></td>
-            <td class="column21 style17 null"></td>
-            <td class="column22 style17 null"></td>
-            <td class="column23 style18 null"></td>
-            <td class="column24 style18 null"></td>
-            <td class="column25 style3 null">18</td>
-            <td class="column26 style4 null">1</td>
-            <td class="column27 style4 null">2</td>
-            <td class="column28 style13 n">1</td>
-            <td class="column29 style3 null">5</td>
-            <td class="column30 style4 null">9</td>
-            <td class="column31 style4 null">8</td>
-            <td class="column32 style4 null">9</td>
-            <td class="column33 style4 null">10</td>
-            <td class="column34 style4 null"><input type="text" class="Rent"></td>
-            <td class="column35 style4 null"><input type="text" class="Rent"></td>
+            <td class="column5 style10 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column6 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column7 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column8 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column9 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column10 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column11 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column12 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column13 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column14 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column15 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column16 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column17 style17 null"><input type="text" class="Rent" placeholder="x"></td>
+            <td class="column18 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column19 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column20 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column21 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column22 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column23 style18 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column24 style18 null"><input type="text" class="Rent" placeholder="x"></td>
+            <td class="column25 style5 null"><input type="text" class="Rent" Value="18"></td>
+            <td class="column26 style2 null"><input type="text" class="Rent" Value="2"></td>
+            <td class="column27 style2 null"><input type="text" class="Rent" Value="10"></td>
+            <td class="column28 style8 n">1</td>
+            <td class="column29 style3 null"><input type="text" class="Rent" Value="9"></td>
+            <td class="column30 style4 null"><input type="text" class="Rent" Value="10"></td>
+            <td class="column31 style4 null"><input type="text" class="Rent" Value="8"></td>
+            <td class="column32 style4 null"><input type="text" class="Rent" Value="10"></td>
+            <td class="column33 style4 null"><input type="text" class="Rent" Value="10"></td>
+            <td class="column34 style4 null"><input type="text" class="Rent" Value="10"></td>
+            <td class="column35 style4 null"><input type="text" class="Rent" Value=""></td>
             <td class="column36 style4 null"><input type="text" class="Rent"></td>
             <td class="column37 style4 null"><input type="text" class="Rent"></td>
             <td class="column38 style4 null"><input type="text" class="Rent"></td>
             <td class="column39 style20 null"><input type="text" class="Rent"></td>
-            <td class="column40 style21 null">9.5</td>
-            <td class="column41 style22 null">9</td>
-            <td class="column42 style21 null">10</td>
+            <td class="column40 style21 null"><input type="text" class="Rent" Value="9"></td>
+            <td class="column41 style22 null"><input type="text" class="Rent" Value="10"></td>
+            <td class="column42 style21 null"><input type="text" class="Rent" Value="10"></td>
         </tr>
         <tr class="row4">
             <td class="column0 style8 n">2</td>
             <td class="column1 style47 s style49" colspan="3">Hector Ignacio Martinez Rosales</td>
             <td class="column4 style8 n">2</td>
-            <td class="column5 style11 null"></td>
-            <td class="column6 style2 null"></td>
-            <td class="column7 style2 null"></td>
-            <td class="column8 style2 null"></td>
-            <td class="column9 style2 null"></td>
-            <td class="column10 style2 null"></td>
-            <td class="column11 style2 null"></td>
-            <td class="column12 style2 null"></td>
-            <td class="column13 style2 null"></td>
-            <td class="column14 style2 null"></td>
-            <td class="column15 style2 null"></td>
-            <td class="column16 style2 null"></td>
-            <td class="column17 style2 null"></td>
-            <td class="column18 style2 null"></td>
-            <td class="column19 style2 null"></td>
-            <td class="column20 style2 null"></td>
-            <td class="column21 style2 null"></td>
-            <td class="column22 style2 null"></td>
-            <td class="column23 style23 null"></td>
-            <td class="column24 style23 null"></td>
-            <td class="column25 style5 null"></td>
-            <td class="column26 style2 null"></td>
-            <td class="column27 style2 null"></td>
-            <td class="column28 style14 n">2</td>
-            <td class="column29 style5 null"></td>
-            <td class="column30 style2 null"></td>
-            <td class="column31 style2 null"></td>
-            <td class="column32 style2 null"></td>
-            <td class="column33 style2 null"></td>
-            <td class="column34 style2 null"></td>
+            <td class="column5 style10 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column6 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column7 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column8 style17 null"><input type="text" class="Rent" placeholder="x"></td>
+            <td class="column9 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column10 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column11 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column12 style17 null"><input type="text" class="Rent" placeholder="x"></td>
+            <td class="column13 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column14 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column15 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column16 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column17 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column18 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column19 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column20 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column21 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column22 style17 null"><input type="text" class="Rent" placeholder="x"></td>
+            <td class="column23 style18 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column24 style18 null"><input type="text" class="Rent" placeholder="0"></td>
+            <td class="column25 style5 null"><input type="text" class="Rent" Value="17"></td>
+            <td class="column26 style2 null"><input type="text" class="Rent" Value="3"></td>
+            <td class="column27 style2 null"><input type="text" class="Rent" Value="15"></td>
+            <td class="column28 style8 n">2</td>
+            <td class="column29 style2 null"><input type="text" class="Rent" Value="10"></td>
+            <td class="column30 style2 null"><input type="text" class="Rent" Value="10"></td>
+            <td class="column31 style2 null"><input type="text" class="Rent" Value="10"></td>
+            <td class="column32 style2 null"><input type="text" class="Rent" Value="10"></td>
+            <td class="column33 style2 null"><input type="text" class="Rent" Value="10"></td>
+            <td class="column34 style2 null"><input type="text" class="Rent" Value="10"></td>
             <td class="column35 style2 null"></td>
             <td class="column36 style2 null"></td>
             <td class="column37 style2 null"></td>
             <td class="column38 style2 null"></td>
             <td class="column39 style2 null"></td>
-            <td class="column40 style21 null"></td>
-            <td class="column41 style2 null"></td>
-            <td class="column42 style21 null"></td>
+            <td class="column40 style21 null"><input type="text" class="Rent" Value="10"></td>
+            <td class="column41 style2 null"><input type="text" class="Rent" Value="10"></td>
+            <td class="column42 style21 null"><input type="text" class="Rent" Value="10"></td>
         </tr>
         <tr class="row5">
             <td class="column0 style8 n">3</td>
-            <td class="column1 style47 null style49" colspan="3"></td>
+            <td class="column1 style47 null style49" colspan="3">Vanessa Rojas Heredia</td>
             <td class="column4 style8 n">3</td>
-            <td class="column5 style11 null"></td>
-            <td class="column6 style2 null"></td>
-            <td class="column7 style2 null"></td>
-            <td class="column8 style2 null"></td>
-            <td class="column9 style2 null"></td>
-            <td class="column10 style2 null"></td>
-            <td class="column11 style2 null"></td>
-            <td class="column12 style2 null"></td>
-            <td class="column13 style2 null"></td>
-            <td class="column14 style2 null"></td>
-            <td class="column15 style2 null"></td>
-            <td class="column16 style2 null"></td>
-            <td class="column17 style2 null"></td>
-            <td class="column18 style2 null"></td>
-            <td class="column19 style2 null"></td>
-            <td class="column20 style2 null"></td>
-            <td class="column21 style2 null"></td>
-            <td class="column22 style2 null"></td>
-            <td class="column23 style23 null"></td>
-            <td class="column24 style23 null"></td>
-            <td class="column25 style5 null"></td>
-            <td class="column26 style2 null"></td>
-            <td class="column27 style2 null"></td>
-            <td class="column28 style14 n">3</td>
-            <td class="column29 style5 null"></td>
-            <td class="column30 style2 null"></td>
-            <td class="column31 style2 null"></td>
-            <td class="column32 style2 null"></td>
-            <td class="column33 style2 null"></td>
-            <td class="column34 style2 null"></td>
+            <td class="column5 style10 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column6 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column7 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column8 style17 null"><input type="text" class="Rent" placeholder="x"></td>
+            <td class="column9 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column10 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column11 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column12 style17 null"><input type="text" class="Rent" placeholder="x"></td>
+            <td class="column13 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column14 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column15 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column16 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column17 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column18 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column19 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column20 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column21 style17 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column22 style17 null"><input type="text" class="Rent" placeholder="x"></td>
+            <td class="column23 style18 null"><input type="text" class="Rent" placeholder="o"></td>
+            <td class="column24 style18 null"><input type="text" class="Rent" placeholder="0"></td>
+            <td class="column25 style5 null"><input type="text" class="Rent" Value="17"></td>
+            <td class="column26 style2 null"><input type="text" class="Rent" Value="3"></td>
+            <td class="column27 style2 null"><input type="text" class="Rent" Value="15"></td>
+            <td class="column28 style8 n">2</td>
+            <td class="column29 style2 null"><input type="text" class="Rent" Value="10"></td>
+            <td class="column30 style2 null"><input type="text" class="Rent" Value="10"></td>
+            <td class="column31 style2 null"><input type="text" class="Rent" Value="10"></td>
+            <td class="column32 style2 null"><input type="text" class="Rent" Value="10"></td>
+            <td class="column33 style2 null"><input type="text" class="Rent" Value="10"></td>
+            <td class="column34 style2 null"><input type="text" class="Rent" Value="10"></td>
             <td class="column35 style2 null"></td>
             <td class="column36 style2 null"></td>
             <td class="column37 style2 null"></td>
             <td class="column38 style2 null"></td>
             <td class="column39 style2 null"></td>
-            <td class="column40 style21 null"></td>
-            <td class="column41 style2 null"></td>
-            <td class="column42 style21 null"></td>
+            <td class="column40 style21 null"><input type="text" class="Rent" Value="10"></td>
+            <td class="column41 style2 null"><input type="text" class="Rent" Value="10"></td>
+            <td class="column42 style21 null"><input type="text" class="Rent" Value="10"></td>
         </tr>
         <tr class="row6">
             <td class="column0 style8 n">4</td>
@@ -3432,135 +3447,6 @@ MES: </span><span style="font-weight:bold; text-decoration:underline; color:#000
             <td class="column39 style2 null"></td>
             <td class="column40 style21 null"></td>
             <td class="column41 style2 null"></td>
-            <td class="column42 style21 null"></td>
-        </tr>
-        <tr class="row28">
-            <td class="column0 style8 n">26</td>
-            <td class="column1 style47 null style49" colspan="3"></td>
-            <td class="column4 style8 n">26</td>
-            <td class="column5 style11 null"></td>
-            <td class="column6 style2 null"></td>
-            <td class="column7 style2 null"></td>
-            <td class="column8 style2 null"></td>
-            <td class="column9 style2 null"></td>
-            <td class="column10 style2 null"></td>
-            <td class="column11 style2 null"></td>
-            <td class="column12 style2 null"></td>
-            <td class="column13 style2 null"></td>
-            <td class="column14 style2 null"></td>
-            <td class="column15 style2 null"></td>
-            <td class="column16 style2 null"></td>
-            <td class="column17 style2 null"></td>
-            <td class="column18 style2 null"></td>
-            <td class="column19 style2 null"></td>
-            <td class="column20 style2 null"></td>
-            <td class="column21 style2 null"></td>
-            <td class="column22 style2 null"></td>
-            <td class="column23 style23 null"></td>
-            <td class="column24 style23 null"></td>
-            <td class="column25 style5 null"></td>
-            <td class="column26 style2 null"></td>
-            <td class="column27 style2 null"></td>
-            <td class="column28 style14 n">26</td>
-            <td class="column29 style5 null"></td>
-            <td class="column30 style2 null"></td>
-            <td class="column31 style2 null"></td>
-            <td class="column32 style2 null"></td>
-            <td class="column33 style2 null"></td>
-            <td class="column34 style2 null"></td>
-            <td class="column35 style2 null"></td>
-            <td class="column36 style2 null"></td>
-            <td class="column37 style2 null"></td>
-            <td class="column38 style2 null"></td>
-            <td class="column39 style2 null"></td>
-            <td class="column40 style21 null"></td>
-            <td class="column41 style2 null"></td>
-            <td class="column42 style21 null"></td>
-        </tr>
-        <tr class="row29">
-            <td class="column0 style8 n">27</td>
-            <td class="column1 style47 null style49" colspan="3"></td>
-            <td class="column4 style8 n">27</td>
-            <td class="column5 style11 null"></td>
-            <td class="column6 style2 null"></td>
-            <td class="column7 style2 null"></td>
-            <td class="column8 style2 null"></td>
-            <td class="column9 style2 null"></td>
-            <td class="column10 style2 null"></td>
-            <td class="column11 style2 null"></td>
-            <td class="column12 style2 null"></td>
-            <td class="column13 style2 null"></td>
-            <td class="column14 style2 null"></td>
-            <td class="column15 style2 null"></td>
-            <td class="column16 style2 null"></td>
-            <td class="column17 style2 null"></td>
-            <td class="column18 style2 null"></td>
-            <td class="column19 style2 null"></td>
-            <td class="column20 style2 null"></td>
-            <td class="column21 style2 null"></td>
-            <td class="column22 style2 null"></td>
-            <td class="column23 style23 null"></td>
-            <td class="column24 style23 null"></td>
-            <td class="column25 style5 null"></td>
-            <td class="column26 style2 null"></td>
-            <td class="column27 style2 null"></td>
-            <td class="column28 style14 n">27</td>
-            <td class="column29 style5 null"></td>
-            <td class="column30 style2 null"></td>
-            <td class="column31 style2 null"></td>
-            <td class="column32 style2 null"></td>
-            <td class="column33 style2 null"></td>
-            <td class="column34 style2 null"></td>
-            <td class="column35 style2 null"></td>
-            <td class="column36 style2 null"></td>
-            <td class="column37 style2 null"></td>
-            <td class="column38 style2 null"></td>
-            <td class="column39 style2 null"></td>
-            <td class="column40 style21 null"></td>
-            <td class="column41 style2 null"></td>
-            <td class="column42 style21 null"></td>
-        </tr>
-        <tr class="row30">
-            <td class="column0 style9 n">28</td>
-            <td class="column1 style50 null style52" colspan="3"></td>
-            <td class="column4 style9 n">28</td>
-            <td class="column5 style12 null"></td>
-            <td class="column6 style7 null"></td>
-            <td class="column7 style7 null"></td>
-            <td class="column8 style7 null"></td>
-            <td class="column9 style7 null"></td>
-            <td class="column10 style7 null"></td>
-            <td class="column11 style7 null"></td>
-            <td class="column12 style7 null"></td>
-            <td class="column13 style7 null"></td>
-            <td class="column14 style7 null"></td>
-            <td class="column15 style7 null"></td>
-            <td class="column16 style7 null"></td>
-            <td class="column17 style7 null"></td>
-            <td class="column18 style7 null"></td>
-            <td class="column19 style7 null"></td>
-            <td class="column20 style7 null"></td>
-            <td class="column21 style7 null"></td>
-            <td class="column22 style7 null"></td>
-            <td class="column23 style24 null"></td>
-            <td class="column24 style24 null"></td>
-            <td class="column25 style6 null"></td>
-            <td class="column26 style7 null"></td>
-            <td class="column27 style7 null"></td>
-            <td class="column28 style15 n">28</td>
-            <td class="column29 style6 null"></td>
-            <td class="column30 style7 null"></td>
-            <td class="column31 style7 null"></td>
-            <td class="column32 style7 null"></td>
-            <td class="column33 style7 null"></td>
-            <td class="column34 style7 null"></td>
-            <td class="column35 style7 null"></td>
-            <td class="column36 style7 null"></td>
-            <td class="column37 style7 null"></td>
-            <td class="column38 style7 null"></td>
-            <td class="column39 style7 null"></td>
-            <td class="column40 style21 null"></td>
-            <td class="column41 style7 null"></td>
             <td class="column42 style21 null"></td>
         </tr>
         </tbody>
